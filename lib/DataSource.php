@@ -66,7 +66,6 @@ class DataSource
     /**
      * If you wish to use PDO use this function to get a connection instance
      *
-     * 
      */
     /*public function getPdoConnection()
     {
@@ -83,7 +82,7 @@ class DataSource
 
     /**
      * To get database results
-     */
+     *
      * @param string $query
      * @param string $paramType
      * @param array $paramArray
@@ -111,9 +110,9 @@ class DataSource
         }
     }
 
-   /*
+    /**
      * To insert
-     */
+     *
      * @param string $query
      * @param string $paramType
      * @param array $paramArray
@@ -131,7 +130,7 @@ class DataSource
 
     /**
      * To execute query
-     */
+     *
      * @param string $query
      * @param string $paramType
      * @param array $paramArray
@@ -150,7 +149,7 @@ class DataSource
      * 1.
      * Prepares parameter binding
      * 2. Bind prameters to the sql statement
-     */
+     *
      * @param string $stmt
      * @param string $paramType
      * @param array $paramArray
@@ -169,7 +168,7 @@ class DataSource
 
     /**
      * To get database results
-     */
+     *
      * @param string $query
      * @param string $paramType
      * @param array $paramArray

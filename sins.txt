@@ -1,0 +1,4 @@
+3 sins
+1. hard coding
+2. setting and forgetting 
+3. overloooking blindspots

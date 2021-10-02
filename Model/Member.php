@@ -14,7 +14,7 @@ class Member
 
     /**
      * to check if the username already exists
-     */
+     *
      * @param string $username
      * @return boolean
      */
@@ -40,7 +40,7 @@ class Member
 
     /**
      * to check if the email already exists
-     */
+     *
      * @param string $email
      * @return boolean
      */
@@ -66,7 +66,7 @@ class Member
 
     /**
      * to signup / register a user
-     */
+     *
      * @return string[] registration status message
      */
     public function registerMember()
@@ -121,7 +121,7 @@ class Member
 
     /**
      * to login a user
-     */
+     *
      * @return string
      */
     public function loginMember()
